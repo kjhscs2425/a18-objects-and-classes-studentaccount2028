@@ -18,14 +18,13 @@ zoe.speak()
 # Your class should have its own `speak` method that uses its name.
 #### YOUR CODE HERE ####
 class Dog:
-  def __init__(self, name):
-    self.name = name
-  def speak(self):
-    print(f"{self.name} says woof")
-
-nessie = Dog("Nessie")
-nessie.speak()
+    def _init_ (self,name):
+        self.name = name
+    def speak(self):
+        print(f"{self.name} says woof!")
 
 
 # Make a new object of class `Dog` and call its `speak` method
 #### YOUR CODE HERE ####
+bobby = Dog("Bobby")
+bobby.speak()
